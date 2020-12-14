@@ -7,9 +7,9 @@
 	- Nâng cấp môi trường: 
 	pip install --upgrade pip setuptools wheel
 	- Cài đặt thư viện để chạy webdemo:
-	sudo apt -y install rabbitmq-server
-	pip install pika
-	npm install amqplib  --save
+	+ sudo apt -y install rabbitmq-server
+	+ pip install pika
+	+ npm install amqplib  --save
 2. Cài đặt code
 2.1 Cấu trúc source code
 - Crawl:
