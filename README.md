@@ -36,7 +36,7 @@
 3. Train model:
 - Chạy file FakeNewDetection/Train/PhoBert+finetune.ipynb trên google colab
 4. Chạy code demo
-- Download code: git clone https://github.com/lethanh26061998/Fake-new-detection.git
+- Download code: git clone https://github.com/lethanh26061998/Fake-new-Detection-for-VietNamese.git
 - Copy thư mục code vừa down về trong môi trường ảo đã tạo
 - Sử dụng pip để cài đặt các thư viện: pip install -r requirment.txt
 - Start RabbitMQ: sudo systemctl start  rabbitmq-server.service
