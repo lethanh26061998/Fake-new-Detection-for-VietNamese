@@ -1,20 +1,20 @@
 # Fake-new-Detection-for-VietNamese
 1. Cài đặt môi trường
-	- Sử dung virtualen để tạo môi trường:
+- Sử dung virtualen để tạo môi trường:
 	python3 -m venv DATN
-	- Vào môi trường ảo đã được cài đặt, có tên là DATN: 
+- Vào môi trường ảo đã được cài đặt, có tên là DATN: 
 	source DATN/bin/activate
-	- Nâng cấp môi trường: 
+- Nâng cấp môi trường: 
 	pip install --upgrade pip setuptools wheel
-	- Cài đặt thư viện để chạy webdemo:
+- Cài đặt thư viện để chạy webdemo:
 	+ sudo apt -y install rabbitmq-server
 	+ pip install pika
 	+ npm install amqplib  --save
 2. Cài đặt code
 2.1 Cấu trúc source code
 - Crawl:
-    + listweb.py: chưa biến là 1 dict, lưu trữ phân tích trang của các websites.
-    + crawl_news.py: file crawl các bài báo trên các trang được phân tích ở listweb 
+	+ listweb.py: chưa biến là 1 dict, lưu trữ phân tích trang của các websites.
+	+ crawl_news.py: file crawl các bài báo trên các trang được phân tích ở listweb 
 - FakeNewDetection:
 	+ Train: train model trên google colab Pro
 	+ Model: 
