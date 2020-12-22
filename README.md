@@ -11,6 +11,7 @@
 	+ pip install pika
 	+ npm install amqplib  --save
 2. Cài đặt code
+
 *** Cấu trúc source code
 - Crawl:
 	+ listweb.py: chưa biến là 1 dict, lưu trữ phân tích trang của các websites.
@@ -24,6 +25,7 @@
 	+ vncorenlp: sử dụng thư viện vncorenlp tách từ
 	+ predict_sample.py: file code kiểm tra dự đoán 1 tin tức fake hay real
 - WebDemo: đưa hệ thống dự đoán tin tức lên web, sử dụng nodejs
+
 *** Dữ liệu
 - Crawl: 
 	Sử dụng Selenium+Chrome Driver để thu thập dữ liệu mới - phục vụ cho việc train data mới theo ngày:
