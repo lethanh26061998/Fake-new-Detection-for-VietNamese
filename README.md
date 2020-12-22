@@ -16,7 +16,7 @@
     + listweb.py: chưa biến là 1 dict, lưu trữ phân tích trang của các websites.
     + crawl_news.py: file crawl các bài báo trên các trang được phân tích ở listweb 
 - FakeNewDetection:
-	+ Train: train model trên google colab Pro
+	+ Train: train model trên google colab Pro (có 2 file note books - model phoBERT và model BERT multilingual)
 	+ Model: 
 		- phobert-base: Download pretrain model phobert theo link https://huggingface.co/vinai/phobert-base/tree/main
 		- 08122020: lưu trữ model theo ngày train với accuracy cao nhất đã được train
@@ -33,12 +33,12 @@
 	+ Giải nén và lưu folder chromedriver_linux64 trong folder Crawl_news
 - Dataset cho train model:
 	+ Sử dụng bộ dữ liệu của cuộc thi vlsp 2020, có trong thư mục FakeNewDetection/Data/dataset
-3. Train model:
+3. Train model: Thử nghiệm với 2 model
 - Chạy file FakeNewDetection/Train/PhoBert+finetune.ipynb trên google colab
+- Chạy file FakeNewDetection/Train/bert-multilingual-VN.ipynb trên google colab
 4. Chạy code demo
 - Download code: git clone https://github.com/lethanh26061998/Fake-new-detection.git
 - Copy thư mục code vừa down về trong môi trường ảo đã tạo
 - Sử dụng pip để cài đặt các thư viện: pip install -r requirment.txt
-- Start RabbitMQ: sudo systemctl start  rabbitmq-server.service
-- run file: python message.py
-- Mở 1 terminal khác để chạy server node: npm start
+- Vào thư mục WebDemo và run file: python3 message.py
+- Mở 1 terminal khác, vào thư mục WebDemo để chạy server node: node index.js
