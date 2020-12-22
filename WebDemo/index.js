@@ -35,7 +35,7 @@ io.on("connection", function(socket){
       });
       setTimeout(function() {
         conn.close();
-      }, 500);
+      }, 30000);
     });
     
   });

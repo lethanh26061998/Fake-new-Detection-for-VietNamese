@@ -11,7 +11,8 @@ $(document).ready(function(){
   
 
   $("#btnCheck").click(function(){
-    socket.emit("client-send-Message", [ $("#txtPostMessage").val(), $("#txtTimeStamp").val()]);
+    socket.emit("client-send-Message", [ $("#txtPostMessage").val(), $("#txtTimeStamp").val(), 
+    $("#txtNumLike").val(), $("#txtNumComment").val(), $("#txtNumShare").val()]);
   });
 
 
